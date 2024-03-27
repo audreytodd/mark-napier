@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(255, 55, 0);
+    margin: auto;
+    width: 75%;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    justify-items: stretch;
+
+}
+
+.photogrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.selfie{
+    width: 400px;
+    height: 400px;
+    grid-column: 1/2;
+   grid-row: 1/2; 
+}
+
+.shredder{
+    width: 400px;
+    height: 400px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.barbie{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.flage{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
