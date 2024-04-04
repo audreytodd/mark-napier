@@ -1,9 +1,10 @@
 body{
     margin: 5px;
-    background-image: url("../images/bio-background-desktop.jpg");
+    background-image: url(../images/shredder-background.png);
+    background-size: cover;
+    background-position: center;
     font-family: monospace;
 }
-
 
 
 .nav-container {

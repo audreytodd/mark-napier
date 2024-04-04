@@ -1,6 +1,7 @@
 body{
     margin: 5px;
-    background-image: url("../images/bio-background-desktop.jpg");
+    background-image: url(../images/barbie-background.png);
+    background-repeat: repeat;
     font-family: monospace;
 }
 

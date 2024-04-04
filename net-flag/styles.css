@@ -1,10 +1,17 @@
 body{
     margin: 5px;
-    background-image: url("../images/bio-background-desktop.jpg");
+    background-image: url(../images/netflag-background.png);
+    background-size: cover;
     font-family: monospace;
 }
-
-
+h1{
+    background-color: rgb(0, 162, 255);
+    padding: 10px;
+}
+p{
+    background-color: rgb(0, 162, 255);
+    padding: 10px;
+}
 
 .nav-container {
     display: flex;
