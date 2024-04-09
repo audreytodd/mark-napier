@@ -27,3 +27,6 @@ p{
 a{
     color: rgb(0, 0, 0);
 }
+a:hover{
+    background-color: aquamarine;
+}

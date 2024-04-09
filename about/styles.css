@@ -1,10 +1,8 @@
 body{
-    margin: 5px;
     background-image: url("../images/bio-background-desktop.jpg");
+    background-size: cover;
     font-family: monospace;
 }
-
-
 
 .nav-container {
     display: flex;
@@ -12,11 +10,46 @@ body{
     align-items: center;
     height: 50px;
     width: 100%;
-    margin: auto;
     background-color: rgb(255, 0, 174);
     font-family: monospace;
     font-size: 15px;
 }
 a{
     color: rgb(0, 0, 0);
+}
+a:hover{
+    background-color: aquamarine;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: chartreuse;
+    font-size:large;
+    font-style: underline;
+}
+
+.writing{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 10fr);
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    font-size: medium;
+}
+
+.p1{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+.p2{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    grid-row: 3/4;
+    grid-column: 1/2;
 }
