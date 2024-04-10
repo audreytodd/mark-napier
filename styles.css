@@ -16,12 +16,8 @@ header{
 }
 
 .glitch{
-    animation: glitch 3s infinite;
+    animation: glitch 1s infinite;
   }
-.glitch div:nth-child(odd){
-    animation-delay: 2s;
-  }
-
 
 @keyframes glitch {
     0%{
@@ -58,7 +54,6 @@ header{
         opacity: 0;
     }
   }
-
 
 
 footer{
