@@ -41,6 +41,12 @@ p{
     float: right;
     width: 50%
 }
+.writing{
+    margin: 5px;
+}
+.writing:hover{
+    transform: scale(110%);
+}
 
 .currentflag{
     margin: 5px;

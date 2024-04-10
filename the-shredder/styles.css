@@ -37,9 +37,9 @@ a:hover{
     float: left;
     width: 50%;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
 }
-.writing :hover{
+.writing:hover{
     transform: scale(110%);
 }
 .shredded{
