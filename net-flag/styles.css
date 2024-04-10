@@ -44,4 +44,6 @@ p{
 
 .currentflag{
     margin: 5px;
+    width: 50%;    
+    float: left;
 }

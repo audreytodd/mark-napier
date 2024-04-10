@@ -16,7 +16,7 @@ header{
 }
 
 .glitch{
-    animation: glitch 1s infinite;
+    animation: glitch 500ms infinite;
   }
 
 @keyframes glitch {
