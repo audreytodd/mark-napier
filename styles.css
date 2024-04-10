@@ -15,15 +15,13 @@ header{
 
 }
 
-.glitch {
+.glitch{
     animation: glitch 3s infinite;
   }
-.glitch div:nth-child(1n){
+.glitch div:nth-child(odd){
     animation-delay: 2s;
-  }s
-.glitch div:nth-child(3n){
-    animation-delay: 1s;
   }
+
 
 @keyframes glitch {
     0%{
