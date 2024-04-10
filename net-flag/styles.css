@@ -29,6 +29,9 @@ a:hover{
     display: flex;
     justify-content: center;
 }
+.title :hover{
+    background-color: yellow;
+}
 
 p{
     background-color: yellow;
