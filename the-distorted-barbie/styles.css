@@ -22,14 +22,51 @@ a:hover{
 }
 .title{
     font-family: monospace;
-    background-color: rgb(0, 242, 255);
+    background-color: rgb(0, 0, 0);
     font-size: large;
-    color: rgb(250, 253, 255);
+    color: rgb(93, 255, 95);
     text-align: center;
     padding: 5px;
 }
+
 .writing{
     font-size: medium;
 }
+.p1{
+    background-color: black;
+    color: rgb(127, 255, 127);
+    width: 50%;
+    float: right;
+    padding: 10px;
+    margin: 5px;
+}
+.p1:hover{
+    transform: scale(110%);
+}
+.bjork{
+    float: left;
+    margin: 5px;
+}
+.possesed{
+    margin: 5px;
+}
+.barbies{
+    float: right;
+    width: 25%;
+    margin: 5px;
+    padding: 10px;
+}
+.p2{
+    background-color: black;
+    color: rgb(127, 255, 127);
+    width: 50%;
+    float: left;
+    float: inline-end;
+    padding: 10px;
+    margin-top: 100px;
 
+}
+.p2:hover{
+    transform: scale(110%);
+}
 
